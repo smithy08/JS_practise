@@ -4,16 +4,7 @@ const myCity = {
     country: "England"
 };
 
-let myObject;
 
-myObject={
-    a:10,
-    b:"abc"
-};
-
-myObject.c="Added";
-
-delete myObject.a;
 
 let myPost = {};
 
@@ -24,3 +15,19 @@ myPost.shared = false;
 myPost.postLikes +=1;
 
 delete myPost.shared;
+
+const myObject ={
+    "a":10
+}
+
+copyOfMyObject = myObject;
+copyOfMyObject.b = false;
+
+objectWithNestedObject = {};
+objectWithNestedObject.nestedObject = {};
+objectWithNestedObject.nestedObject.a=null;
+objectWithNestedObject.nestedObject["b"]=true;
+
+
+
+
